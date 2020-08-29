@@ -45,7 +45,7 @@ _Presuppositions_:
 2. In a terminal, install Cypress: `npm install cypress`
 3. Once installed, run the dashboard: `npx cypress open`
   You will see a dashboard appear:
-  <img src="/Users/gmeece/Documents/Tech/repos/GitHub/snapdocs_cypress_takehome/cypress_dashboard.png" alt="cypress_dashboard" style="zoom:50%;" />
+  <img src="cypress_dashboard.png" alt="cypress_dashboard" style="zoom:50%;" />
 4. Click on the **Run all specs** link.
 5. The tests will execute, there will be fun stuff on the screen, and there will be great rejoicing.
 
