@@ -6,7 +6,7 @@ import {
 
 import { 
   clickHeaderLink,
-  calloutLinkScrollAndClick
+  calloutgetAndClick
 } from "../page-objects/home-page"
 
 describe('Landing Page Top Links', () => {
@@ -58,17 +58,17 @@ describe('Landing Page Body Links', () => {
   })
   
   it('should go to Lenders page', () => {
-    calloutLinkScrollAndClick('Lenders');
+    calloutgetAndClick('Lenders')
     cy.url().should('include', 'lenders')
   })
 
   it('should go to Title / Escrow page', () => {
-    calloutLinkScrollAndClick('Title & Escrow');
-    cy.url().should('include', 'title');
+    calloutgetAndClick('Title & Escrow')
+    cy.url().should('include', 'title')
   })
 
   it('should go to Notary Signing Agents page', () => {
-    calloutLinkScrollAndClick('Notary Signing Agents');
-    cy.url().should('include', 'notaries');
+    calloutgetAndClick('Notary Signing Agents')
+    cy.url().should('include', 'notaries')
   })
 })

@@ -4,7 +4,7 @@ import {
   acceptCookies
 } from "../page-objects/all-pages"
 
-import { 
+import {
   clickGetStartedButton,
   clickActivateFreeAccountButton,
   returnFieldSelector
