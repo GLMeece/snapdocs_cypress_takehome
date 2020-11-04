@@ -49,10 +49,10 @@ _Presuppositions_:
    Alternately, you could download the repository as a zipped file and decompress it locally.
 2. In a terminal, install Cypress: `npm install cypress`
 3. Once installed, run the dashboard: `npx cypress open`
-  You will see a dashboard appear: 
-  ![Cypress Dashboard](cypress_dashboard.png)
+    You will see a dashboard appear: 
+    ![Cypress Dashboard](cypress_dashboard.png)
 6. Click on the **Run all specs** link.
-7. The tests will execute rapidly, with a "fast-forward" sequence of events constituting the test cases being executed, along with their statuses along the way. It is not unusual to see some of the tests show .
+7. The tests will execute rapidly, with a "fast-forward" sequence of events constituting the test cases being executed, along with their statuses along the way. It is not unusual to see some of the tests show request errors during the run.
 
 ## Test Case Execution
 
@@ -68,7 +68,7 @@ The landing page has a high degree of complexity. For the scope of this exercise
 
 For the top links (*Lenders*, *Title / Escrow*, *Notary Signing Agents*, *Resource Center*, *COVID-19 Guide*, *Sign In*, *Get Started*), each is clicked and it is verified that the URL conforms to the expected location on the site. A more robust test would verify critical elements on each of these pages, but that is left for another exercise.
 
-For the body links (in the **Explore the Snapdocs digital closing platform** section), the _Learn more →_ links are clicked, again verifying that the correct URL is reached. For discussion on the 
+For the body links (in the **Explore the Snapdocs digital closing platform** section), the _Learn more →_ links are clicked, again verifying that the correct URL is reached. For discussion on the selector approach, [see below](#selector-approach).
 
 There is obviously significantly more that _should_ be done to verify the home page, but this smoke test subset is just a representative.
 
