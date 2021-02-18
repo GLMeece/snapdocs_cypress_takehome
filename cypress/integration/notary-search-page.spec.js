@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-import { acceptCookies } from "../page-objects/all-pages";
-
 import { notaryCardItem } from "../page-objects/notary-search-page";
 
 describe("Search for Notary by Zip Code", () => {
