@@ -1,10 +1,12 @@
 # README for Cypress Exercise Prompt
 
+> **Author's Note**: This _was_ a take-home assignment for a role I ultimately took at Snapdocs, Inc. It was private, but I've now redacted any confidential items with the `[redacted]` text.
+
 ## Background
 
 | Candidate  | E-Mail            | LinkedIn | GitHub Link |
 | ---------- | ----------------- | -------- | ----------- |
-| Greg Meece | glmeece@gmail.com | https://www.linkedin.com/in/gregmeece/ | https://github.com/GLMeece/snapdocs_cypress_takehome |
+| Greg Meece | [redacted] | https://www.linkedin.com/in/gregmeece/ | https://github.com/GLMeece/snapdocs_cypress_takehome |
 
 ## Challenge
 
@@ -22,14 +24,12 @@ The following is a transcription of the challenge as stated via email:
 >
 >   **Notes**:
 >
-> If you are going to be using GitHub to complete your exercise, please make sure the repository is private and download into a zip drive [_sic_*].
+> [redacted].
 >
-> Please send finished exercise to [Max Gurfinkel](mailto:maximo.gurfinkel@snapdocs.com) and [Toni Neri](mailto:toni.neri@snapdocs.com) and make it shareable with the following team members:
-> * [Patrick Francis](mailto:patrick.francis@snapdocs.com) 
-> * [Cristian Brotto](mailto:cris@snapdocs.com) 
-> * [Matt Middlesworth](mailto:matt.middlesworth@snapdocs.com)
+> Please send finished exercise to [redacted] and [redacted] and make it shareable with the following team members:
+> * [redacted]
 
-\*Presumably, the phrase "zip drive" was intended to be "zipped file". I _used_ to have a [Zip Drive](https://en.wikipedia.org/wiki/Zip_drive), but those days are long gone. :grin:
+[redacted]
 
 ## Installation, Execution, Running Test Cases
 
@@ -99,7 +99,6 @@ This file contains two positive tests, plus one (failing) negative one.
 * For the negative test case, we assert on the fact that this is the only page the author found that is directly accessible from the home page that does not display the [GPDR cookie notice](https://gdpr.eu/cookies/). :grimacing:
 
 ---
-
 
 > 4) *Bonus*: create an alias and use it in the spec.
 
